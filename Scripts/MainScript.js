@@ -58,7 +58,7 @@ function startGameLoop(){
 
 //runs background loop
 function startWebworker(){
-	w = new Worker("Scripts/BackgroundLoop.js");
+	w = new Worker("./BackgroundLoop.js");
 }
 
 //stops game loop
