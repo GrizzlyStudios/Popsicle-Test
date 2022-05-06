@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="height=device-height, initial-scale=1">
+	<title>Popsicle Licker Clicker</title>
+	<link rel="icon" type="image/x-icon" href="Images/Favicon.png">
+	<link href="Stylesheets/StyleSheet.css" rel="stylesheet" type="text/css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65R07FBCYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65R07FBCYP');
+</script>
+	
+	<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://grizzlystudios.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/grizzlystudios.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+	
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6813005731718435"
+     crossorigin="anonymous"></script>
+
+	 <script type="text/javascript">
+		window._mNHandle = window._mNHandle || {};
+		window._mNHandle.queue = window._mNHandle.queue || [];
+		medianet_versionId = "3121199";
+	</script>
+	<script src="https://contextual.media.net/dmedianet.js?cid=8CU2B88T8" async="async"></script>
+</head> 
+
+<body id="body" onresize="resize()"></body>>
+<div id="242414330">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("242414330", "300x250", "242414330");
+            });
+        }
+        catch (error) {}
+    </script>
+</div>
+
+
+<!--<h1>Loading</h1>	-->
+	<div id="BackgroundCenter"></div>
+	<div id="BackgroundLeft"></div>
+	<div id="BackgroundRight"></div>
+	<img onClick="show()" id="ShopButton" class="button unSelectable" src="Images/ShopButton.png" alt="oh no">
+
+	
+
+	<div id="UpgradesDiv" class="unSelectable">
+		<table id="UpgradesTable" class="unSelectable">
+			<tr>
+				<th>
+					<div id="DogPriceDiv" class="priceDiv">
+						<p id="DogPriceP" class="priceP">
+							$5 
+						</p>
+					</div>
+					<img class="button unSelectable" src="Images/Dog Button.png" alt="oh no" id="Dog" onclick="upgradedog()">
+
+					<div id="SunPriceDiv" class="priceDiv">
+						<p id="SunPriceP" class="priceP">
+							$5 
+						</p>
+					</div>
+					<img class="button unSelectable" src="Images/Sun Button.png" alt="oh no" id="UpgradeSun" onclick="upgradeSun()">
+					
+					<div id="PopsiclePriceDiv" class="priceDiv">
+						<p id="PopsiclePriceP" class="priceP">
+							$5 
+						</p>
+					</div>
+					<img src="Images/Bigger Popsicle Button.png" class="button unSelectable" id="UpgradePopsicle" onclick="upgradePopsicle()">
+
+					<div id="SeaGullPriceDiv" class="priceDiv">
+						<p id="SeaGullPriceP" class="priceP">
+							$5 
+						</p>
+					</div>
+					<img class="button unSelectable" src="Images/Sea Gull Button.png" alt="oh no" id="UpgradeSeaGull" onclick="upgradeSeaGull()">
+
+					<div id="BiggerWingsPriceDiv" class="priceDiv">
+						<p id="BiggerWingsPriceP" class="priceP">
+							$5 
+						</p>
+					</div>
+					<img class="button unSelectable" src="Images/Bigger Wings Button.png" alt="oh no" id="BiggerWings" onclick="biggerWings()">
+
+				</th>
+			</tr>
+		</table>
+	</div>	
+	
+	<div border="0px" id="PopsicleDiv" class="unSelectable">		
+		<table id="PopsicleTable" border="0px">			
+			<tr height="75%">				
+				<th id="PopsicleTh" width="100%">
+					<div id="popsicleNumberBackground">
+						<p id="PopsiclesNumber" class="text">0</p>
+					</div>
+					<img class="unSelectable" src="Images/Popsicle Top 1.png" onclick="clickFunction()" height="100%" alt="oh no" id="PopsicleTop">
+				</th>				
+			</tr>
+			
+			<tr height="25%" class="unSelectable">
+				
+				<th id="StickTh" width="100%" class="unSelectable">
+				<img class="unSelectable" src="Images/Popsicle Stick 1.png" id="PopsicleStickIn" height="100%" alt="oh no" >
+				<img class="unSelectable" src="Images/Popsicle Stick Bottom 1.png" id="PopsicleStick" height="100%" alt="oh no" >
+				</th>
+				
+			</tr>
+		</table>
+	
+	</div>
+
+	<img onclick="showSettings()" id="SettingsButton" onClick="showSettings()" class="button unSelectable" src="Images/SettingsButton.png" alt="oh no">	
+	<div id="SettingsDiv" class="unSelectable">
+		<table id="SettingsTable" class="unSelectable">
+			<tr>
+				<th>
+					<img onclick="clearSave()" id="ClearSave"  class="button unSelectable" src="Images/Clear Save.png" alt="Oh NO">
+				</th>
+			</tr>
+		</table>
+	</div>	
+
+
+	<div id="overlay">
+		<form id="form1">
+			<h1 style="text-align: center; font-size: 5vmin; font-family: 'Comic Sans MS';" class="unSelectable">Name</h1>
+			<textarea id="newName">
+			</textarea>
+			<br>
+			<button id="Submit" onclick="setNewName()">Submit</button>
+			<button id="Cancel">Cancel</button>
+		</form>
+	</div>
+
+	<div onclick="showOverlay()" id="nameDiv">
+		<textarea class="unSelectable" readonly id="name">
+		</textarea>		
+	</div>	
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <script src="Scripts/MainScript.js"></script>
+</body>
+</html>
